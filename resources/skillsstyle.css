@@ -1,0 +1,58 @@
+.skillbody
+{
+padding-left : 10%;
+padding-right : 10%;
+padding-top : 30px;
+display : block;
+width : 80%;
+}
+.skillbody1
+{
+
+display : block;
+width : 100%;
+height : 250px;
+}
+
+.skill11
+{
+display : block;
+width : 250px;
+height : 250px;
+float : left;
+margin-right : 5px;
+}
+
+.skill11 img
+{
+display : block;
+height : 100%;
+width : 100%;
+}
+
+.skill11:hover img
+{
+display : none;
+}
+
+.skill22
+{
+display : block;
+width : 250px;
+height : 250px;
+float : right;
+margin-left : 5px;
+}
+
+.skill22 img
+{
+display : block;
+height : 100%;
+width : 100%;
+margin : none;
+}
+
+.skill22:hover img
+{
+display : none;
+}
