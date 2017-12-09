@@ -1,0 +1,38 @@
+.projectouter
+{
+display : block;
+padding-left : 15%;
+padding-right : 15%;
+width : 70%;
+}
+.projectinner
+{
+display : block;
+background : white;
+width : 100%;
+}
+
+.ptopic
+{
+height : 150px;
+width : 60%;
+display: block;
+background : rgb(10,100,210);
+margin-bottom : 5px;
+cursor : pointer;
+font-weight : bold;
+}
+
+.pskill
+{
+height : 150px;
+background : rgba(90,210,250,0.5);
+display : none;
+width : 40%;
+margin-bottom : 5px;
+}
+
+.show
+{
+display : block;
+}
