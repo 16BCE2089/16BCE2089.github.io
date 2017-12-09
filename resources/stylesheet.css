@@ -114,3 +114,22 @@ background-size : auto 100%;
 background-repeat : no-repeat;
 display : block;
 }
+
+.construction
+{
+display : block;
+padding-left : 30%;
+padding-right : 30%;
+height : 400px;
+width : 40%;
+}
+
+.construction1
+{
+display : block;
+height : 100%;
+width : 100%;
+background : url("resources/construction.png");
+background-size : auto 100%;
+background-repeat : no-repeat;
+}
