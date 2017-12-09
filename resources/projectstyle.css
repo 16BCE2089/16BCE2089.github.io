@@ -15,7 +15,7 @@ width : 100%;
 
 .ptopic
 {
-height : 150px;
+min-height : 150px;
 width : 60%;
 display: block;
 background : rgb(10,100,210);
