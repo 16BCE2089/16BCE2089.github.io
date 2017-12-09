@@ -2,6 +2,7 @@
 <head>
 <title>PROJECTS | Subham Biswas </title>
 <link rel="stylesheet" type="text/css" href="resources/stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="resources/projectstyle.css">
 </head>
 <body>
 <div class="header">
@@ -31,11 +32,90 @@ Subham Biswas
 <button class="tabbutton" onclick="location.href='contact.htm';">CONTACT</button>
 </div>
 
-
 </div>
 </div>
   
-    <br><br>
+<br><br>
+<div class="projectouter">
+<div class="projectinner">
+
+<div class="ptopic" style="float:left;" onmouseenter="disp1()" onmouseleave="disp1()">
+<center><h1>My E Portfolio</h1></center>
+Information about me, my projects, sills and contact information.<br>
+Link : U are currently on the same site.
+
+</div>
+<div class="pskill" style="float:left;" id="s1">
+<br>
+<img src="resources/skill1.png" style="float:left; height:70%">
+<img src="resources/skill2.png" style="float:left; height:70%">
+<img src="resources/skill6.png" style="float:left; height:70%">
+</div>
+
+<div class="ptopic"  style="float:right;" onmouseenter="disp2()" onmouseleave="disp2()" onclick="openInNewTab('https://github.com/16BCE2089/Lexical-Analyzer-for-C')">
+<center><h1>Lexical Analyzer of C</h1></center>
+A simple Lexical Analyzer to show the number of and the type of tokens in a C source code.<br>
+Link : https://github.com/16BCE2089/Lexical-Analyzer-for-C
+</div>
+<div class="pskill" style="float:right;" id="s2">
+<br>
+<img src="resources/skill3.png" style="float:right; height:70%">
+<img src="resources/skill4.png" style="float:right; height:70%">
+</div>
+
+<div class="ptopic" style="float:left;" onmouseenter="disp3()" onmouseleave="disp3()" onclick="openInNewTab('https://github.com/16BCE2089/Pushdown-Automaton')">
+<center><h1>Pushdown Automata</h1></center>
+2 Pushdown Automatons in C. One for language AnBn, another for AnBmAn.<br>
+Link : https://github.com/16BCE2089/Pushdown-Automaton
+</div>
+<div class="pskill" style="float:left;" id="s3">
+<br>
+<img src="resources/skill3.png" style="float:left; height:70%">
+<img src="resources/skill4.png" style="float:left; height:70%">
+</div>
+
+<div class="ptopic" style="float:right;" onmouseenter="disp4()" onmouseleave="disp4()">
+<center><h1>Brand Analysis using Social Media</h1></center>
+Analysis of Popularity of different Brands and products using social media parameters like number of likes, shares and hashtags.<br>
+Link : Currently Unavailable;
+</div>
+<div class="pskill" style="float:right;" id="s4">
+<br>
+<img src="resources/skill5.png" style="float:right; height:70%">
+<img src="resources/skill8.png" style="float:right; height:70%">
+</div>
+
+
+
+</div>
+</div>
+
+<script>
+function disp1()
+{
+document.getElementById("s1").classList.toggle("show");
+}
+function disp2()
+{
+document.getElementById("s2").classList.toggle("show");
+}
+function disp3()
+{
+document.getElementById("s3").classList.toggle("show");
+}
+function disp4()
+{
+document.getElementById("s4").classList.toggle("show");
+}
+function openInNewTab(url)
+{
+  var win = window.open(url, '_blank');
+  win.focus();
+}
+</script>
+
+  
+<br><br>
 <div class="construction">
 <div class="construction1">
 </div>
