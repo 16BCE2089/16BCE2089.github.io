@@ -110,6 +110,8 @@ position : absolute;
 bottom : 1%;
 right : 1%;
 height : 350px;
-background : white;
+background : url("/mypic.jpg");
+background-size : auto 100%;
+background-repeat : no-repeat;
 display : block;
 }
