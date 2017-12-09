@@ -76,7 +76,7 @@ display : block;
 
 .homebody
 {
-background :url("backimage1.jpg");
+background :url("matrix.jpg");
 background-size : auto;
 height: 600px;
 display : block;
@@ -85,7 +85,7 @@ position : relative;
 
 body
 {
-background :url("matrix.jpg");
+background :rgb(40,40,40);
 background-size : auto;
 margin : 0px;
 }
